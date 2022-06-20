@@ -32,7 +32,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 100%;
 }
 
 /* ---  Groups & Items --- */
@@ -93,10 +93,10 @@ form {
   border: 2px solid #6b1a22;
   padding: 10px;
 }
-
+/* needs css styling for thr form */
 form label {
   font-weight: bold;
-  
+
   /* display: flex;
   justify-content:left; */
 
