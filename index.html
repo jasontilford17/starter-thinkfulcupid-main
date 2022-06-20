@@ -32,50 +32,61 @@
 
     <main>
       <!-- Join -->
-      <section id="join">
+      <section class="join">
         <img src="images/love.png" alt="ThinkfulCupid - love" />
         <!-- Add join form here -->
         <form> 
           <label for="join-form">Find your perfect match</label>
           <input 
             id="join-form"
+            type="hidden"
+            name="join-form"
           />
-          <label for="email">Email:</label>
-          <input 
-          id="email"
-          type="email"
-          placeholder="email@example.com"
-          required
-          name="email"
-          />
-          
-          <label for="password">Create a password:</label>
-          <input 
-          id="password"
-          type="text"
-          minlength="8"
-          required
-          autofocus
-          name="password"
-          />
+          <div>
+            <div class="container">
 
-          <label for="username">Username:</label>
-          <input 
-          id="username"
-          type="text"
-          name="username"
-          required
-          />
+            <label for="email">Email:</label>
+            <input 
+            id="email"
+            type="email"
+            placeholder="email@example.com"
+            required
+            name="email"
+            />
+          </div>
+            <div class="container">
+            
+            <label for="password">Create a password:</label>
+            <input 
+            id="password"
+            type="text"
+            minlength="8"
+            required
+            autofocus
+            name="password"
+            />
+          </div>
+            <div class="container">
 
-          <label for="gender">I am a...</label>
-          <select name="gender" id="gender" size="1">
-            <option value="Male">Male</option>
-            <option value="Female">Female</option>
-            <option value="Other">Other</option>
-          </select>
-
-          <button type="submit">Join</button>
-
+            <label for="username">Username:</label>
+            <input 
+            id="username"
+            type="text"
+            name="username"
+            required
+            />
+            </div>
+            <div class="container">
+              <label for="gender">I am a...</label>
+              <select name="gender" id="gender" size="1">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <button type="submit">Join</button>
+            
+          </div>
         </form>
       </section>
 
@@ -175,3 +186,7 @@
     </footer>
   </body>
 </html>
+
+
+
+<!-- media query for desktop view is needed and editing for the form is also needed -->

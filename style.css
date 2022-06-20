@@ -93,19 +93,23 @@ form {
   border: 2px solid #6b1a22;
   padding: 10px;
 }
+
+.container{
+  display: flex;
+  justify-content: space-between;
+}
 /* needs css styling for thr form */
 form label {
   font-weight: bold;
 
-  /* display: flex;
-  justify-content:left; */
-
+ 
 }
 
 form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
+
 }
 
 form button {
@@ -130,3 +134,12 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and (min-width: 480px) {
+
+  header {
+display: flex;
+justify-content: space-between;
+}
+
+}
+  
